@@ -11,6 +11,8 @@ import streamlit as st
 # ***** CONFIGURABLE PARAMETERS *****
 NO_ANSWER_MSG = "Sorry, I was unable to answer your question."
 MODEL_NAME = os.environ.get("MODEL_NAME", "anthropic.claude-instant-v1")
+LOGO_URL_1 = '<insert logo URL>'
+LOGO_URL_2 = '<insert logo URL>'
 
 def main():
 
@@ -41,9 +43,9 @@ def main():
     #Logos
     col1, col2 = st.columns(2)
     with col1:
-        st.image('https://www.excelando.co.il/wp-content/uploads/2019/04/ELAD-LOGO-2020_DATA_black1-01-2048x688.png', width=300)
+        st.image(LOGO_URL_1, width=300)
     with col2:
-        st.image('https://upload.wikimedia.org/wikipedia/he/f/fb/Israeli_Ministry_of_Health_logo.png', width=180)
+        st.image(LOGO_URL_2, width=180)
                 
     tab1, tab2, tab3 = st.tabs(["Chatbot", "Details", "Technologies"])
 
