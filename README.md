@@ -1,13 +1,10 @@
 # streamlit_frontend
+This repository contains the frontend Python code for an application built using Streamlit. The technology stack includes GitHub for version control and hosting the code repository, and the Streamlit Community for utilizing the shared server.
 
 ## Technology
 
 - GitHub (Repository Code)
 - Streamlit Community (Shared Server)
-
-## Overview
-
-This repository contains the frontend Python code for an application built using Streamlit. The technology stack includes GitHub for version control and hosting the code repository, and the Streamlit Community for utilizing the shared server.
 
 ### Functionality
 
